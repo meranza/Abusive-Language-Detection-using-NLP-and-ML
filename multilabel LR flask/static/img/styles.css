@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('{{ url_for("static", filename="img/logo.png") }}'); /* Set the logo as the background */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center center; /* Center the background */
+    background-repeat: no-repeat; /* Avoid repeating the background image */
+    height: 100vh; /* Make the background cover the full height of the viewport */
+    color: white; /* Make the text white so it stands out on the background */
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result-box {
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
